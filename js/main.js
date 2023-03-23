@@ -116,7 +116,7 @@ function gameLoop() {
         console.log("end the game!")
         // kill shrek
         ogre.alive = false
-        statusDisplay.innerText = "the hero has bravely face their ogre and slayed it!"
+        statusDisplay.innerText = "the hero has bravely faced their ogre and slayed it!"
         clearInterval(gameLoopInterval)
     }
     // check for end game conditions
